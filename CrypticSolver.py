@@ -75,10 +75,11 @@ def print_solutions(solutions):
         return
 
     print("The best possible solution we found was '%s'" % solutions[0][0])
+    print("Match score: %s" % solutions[0][1])
     if len(solutions) > 1:
         print("Other possible solutions include:")
-        for word, _ in solutions[1:]:
-            print(word)
+        for word, score in solutions[1:]:
+            print(word + " score: %s" % score)
 
 
 CrypticSolver()

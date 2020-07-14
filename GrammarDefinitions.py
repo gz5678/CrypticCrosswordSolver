@@ -78,7 +78,7 @@ def create_rule_from_file(rule_name, file_name):
         words = f.read().splitlines()
 
     words = [word.lower() for word in words]
-    rule = rule_name + " -> " + " | ".join(["'%s'" % word for word in words])
+    rule = rule_name + " -> " + " | ".join(["'%s'" % word for word in words])  # IDENTIFIER TYPE -> all identifier words
 
     return rule
 
@@ -89,6 +89,6 @@ def create_abbreviation_rule():
         lines = f.read().splitlines()
 
     words = [line.split(ABBR_SEP)[0].lower() for line in lines]
-    rule = "ABBR -> " + " | ".join(["'%s'" % word for word in words])
+    rule = "ABBR -> " + " | ".join(["'%s'" % word for word in words])   # ABBR -> all words that can be abbreviated
 
     return rule

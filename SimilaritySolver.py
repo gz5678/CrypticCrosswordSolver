@@ -2,6 +2,7 @@ from nltk.corpus import wordnet as wn, stopwords
 from nltk.tokenize import word_tokenize
 import re
 
+
 def solve(clue, length=0, solution = "", indicator=True):
     """
     Return a sorted list of words and their score that are possible solutions to the clue given.
@@ -65,45 +66,8 @@ def solve(clue, length=0, solution = "", indicator=True):
 
     # iterate over all the values in the database
     output_noun, output_verb, output_adj, output_adv, output_lesk = _give_score(iteration_list, length, context_words, text_words, syn, syn_noun, syn_verb, syn_adj, syn_adv)
-    verbs = sorted(output_verb, key=output_verb.__getitem__, reverse=True)
-    nouns = sorted(output_noun, key=output_noun.__getitem__, reverse=True)
-    adjs = sorted(output_adj, key=output_adj.__getitem__, reverse=True)
-    advs = sorted(output_adv, key=output_adv.__getitem__, reverse=True)
     lesk = sorted(output_lesk, key=output_lesk.__getitem__, reverse=True)
 
-    max_verbs = 0
-    for w in verbs:
-        if output_verb[w] > max_verbs:
-            max_verbs = output_verb[w]
-
-    # for key, value in output_verb.items():
-    #     output_verb[key] = value / max_verbs
-
-    max_nouns = 0
-    for w in nouns:
-        if output_noun[w] > max_nouns:
-            max_nouns = output_noun[w]
-
-    # for key, value in output_noun.items():
-    #     output_noun[key] = value / max_nouns
-
-    max_adjs = 0
-    for w in adjs:
-        if output_adj[w] > max_adjs:
-            max_adjs = output_adj[w]
-
-    # for key, value in output_adj.items():
-    #     output_adj[key] = value / max_adjs
-
-    max_advs = 0
-    for w in advs:
-        if output_adv[w] > max_advs:
-            max_advs = output_adv[w]
-
-    # for key, value in output_adv.items():
-    #     output_adv[key] = value / max_advs
-
-    # tot_rank = dict(output_verb, **output_noun)
     tot_rank1 = {k: max(i for i in (output_verb.get(k), output_noun.get(k)) if i) for k in
                  output_verb.keys() | output_noun}
 
@@ -114,8 +78,10 @@ def solve(clue, length=0, solution = "", indicator=True):
                 tot_rank2.keys() | output_adv}
 
     for w in lesk:
+        # word only found in lesk
         if not (w in tot_rank) or tot_rank[w] == 0:
             tot_rank[w] = output_lesk[w]
+        # word that got a similarity score of 1
         elif tot_rank[w] == 1:
             tot_rank[w] = 1
         else:
@@ -135,6 +101,7 @@ def solve(clue, length=0, solution = "", indicator=True):
 
     return sorted(rank, key=lambda x: x[1], reverse=True)[:1000]
 
+
 def _remove_non_alphabet(word_list):
     """
     Removes all non words from the token list.
@@ -147,6 +114,7 @@ def _remove_non_alphabet(word_list):
         if pattern.match(word):
             update_word_list.append(word)
     return update_word_list
+
 
 def _give_score(word_list, length, context_words, clue_tokens, clue_syns, syn_noun, syn_verb, syn_adj, syn_adv):
     """

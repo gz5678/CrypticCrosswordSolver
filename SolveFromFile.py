@@ -5,8 +5,9 @@ import os.path
 import time
 
 FOLDER = "Clues"
-INPUT_FILE_NAME = "DifferentClues3.txt"
-OUTPUT_FILE_NAME = "DifferentClues3_Results.txt"
+INPUT_FILE_NAME = "ClueList.txt"
+OUTPUT_FILE_NAME = "ClueList_Results.txt"
+
 
 def SolveFromFile():
     print("Solving clues in file %s" % INPUT_FILE_NAME)
@@ -19,18 +20,22 @@ def SolveFromFile():
 
     path = os.path.join(FOLDER, OUTPUT_FILE_NAME)
     start = time.time()
+
     with open(path, "w", encoding="utf-8") as f:
         for clue, solution_format, solution in clues:
             solutions = solve(clue, solution_format)
             if solutions and solutions[0][1] > MIN_SOLUTION_VALUE:
+                # Found at least one good solution
                 found += 1
                 if solutions[0][0] == solution:
+                    # Found correct solution
                     correct += 1
                     was_option += 1
                     f.write("%s. Correct solution found: %s\n" % (" ".join(clue), solutions[0][0]))
                 else:
                     possibility = False
-                    for word,score in solutions:
+                    # Check if the correct solution was one of the optional solutions
+                    for word, score in solutions:
                         if solution == word:
                             f.write("%s. Correct solution (%s) got score %s.\n" % (" ".join(clue), word, score))
                             possibility = True
@@ -38,6 +43,7 @@ def SolveFromFile():
                     if not possibility:
                         f.write("%s. Incorrect solution found: %s\n" % (" ".join(clue), solutions[0][0]))
             else:
+                # Didn't find any solution
                 f.write("%s. No solution.\n" % " ".join(clue))
     total = time.time() - start
 
@@ -51,13 +57,21 @@ def SolveFromFile():
 
 
 def parse_file(path):
+    """
+    Parse file line by line
+    """
     with open(path, "r", encoding="utf-8") as f:
         all_clues = f.readlines()
 
     clues = [parse_line(line) for line in all_clues]
     return clues
 
+
 def parse_line(line):
+    """
+    Assume a line format is as follows:
+    <clue> (<number of letters per word>) | <solution>
+    """
     first_bracket = line.rfind("(")
     second_bracket = line.rfind(")")
     separator = line.rfind("|")
@@ -70,5 +84,6 @@ def parse_line(line):
     solution = line[separator + 1:].lower().strip()
 
     return clue, SolutionFormat(len(lengths), lengths, ""), solution
+
 
 SolveFromFile()
