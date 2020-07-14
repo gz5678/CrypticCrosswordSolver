@@ -1,0 +1,679 @@
+a follower---b
+about---c
+account---ac
+accountant---ca
+ace---a
+actinium---ac
+advert---ad
+after midday---pm
+afternoon---pm
+against---v
+agent---rep
+agricultural---ag
+air conditioning---ac
+alabama---al
+alaska---ak
+albania---al
+alien---et
+also known as---aka
+alto---a
+aluminium---al
+aluminum---al
+ambassador---he
+america---am
+american soldier---gi
+amnesty---ai
+ancient city---ur
+ancient times---bc
+and so on---etc
+anglican---ce
+anglo-saxon---as
+answer---a
+approximately---c
+arabic---ar
+arbiter---ref
+argon---ar
+arizona---az
+arkansas---ar
+army cop---mp
+around---ca
+arsenic---as
+article---a
+artificial intelligence---ai
+artillery---ra
+artist---ra
+artists---ra
+asian---e
+astatine---at
+at home---in
+attorney---da
+australia---ausoz
+australian capital territory---act
+avenue---ave
+bachelor---ba
+bachelor of arts---ba
+bachelor of medicine---bm
+barium---ba
+basque nationalists---eta
+bass---b
+batting---in
+bearing---n
+before midday---am
+beginner---l
+belgium---bel
+bend---su
+beryllium---be
+big---os
+bill---ac
+bird---tit
+bishop---brr
+bismuth---bi
+blood group---a
+bob---s
+bolivia---bo
+bonds boss---m
+book---nt
+books---ot
+boron---b
+bowled---b
+boy---b
+brazil---br
+bridge player---n
+british---b
+bromine---br
+by the day---pd
+byte---b
+calcium---ca
+california---ca
+capone---al
+car---t
+carbon---c
+carbon copy---cc
+care of---co
+castle---r
+catholic---c
+caught---cct
+celsius---c
+cent---c
+centigrade---c
+century---c
+cerium---ce
+certificate---x
+chapter---c
+chief---ch
+chlorine---cl
+christ---x
+chromium---cr
+chromosome---xy
+church---chcerc
+church of england---ce
+circa---c
+circle---o
+circuit---o
+city---ny
+civil engineer---ce
+clef---c
+club---y
+clubs---c
+cobalt---co
+coin---p
+colonel---col
+colorado---co
+colt---c
+common era---ce
+company---co
+compare---cf
+compass point---n
+computer---pc
+concerning---re
+connecticut---ct
+conservationists---nt
+conservative---c
+constable---pc
+copper---p
+court---ct
+credit---cr
+criminal---con
+cross---x
+cuba---cu
+current---ac
+current account---ca
+cyprus---cy
+cystic fibrosis---cf
+date---d
+daughter---d
+day---d
+deaddied---d
+debts---ious
+deceased---d
+decoration---vc
+degree---deg
+delaware---de
+detective inspector---di
+detectives---cid
+deutschmark---dm
+diamond---d
+diamonds---d
+diana---di
+direction---n
+disc---o
+disease---tb
+doctor---doc
+doctor---dr
+doctor of divinity---dd
+dollar---s
+dram---dr
+drip---iv
+drug---c
+dry---tt
+duck---o
+each---ea
+east---e
+east germany---gdr
+ecstasy---ex
+editor---ed
+egg---o
+electricity---ac
+eleven---ll
+elizabeth---e
+energy---e
+engineer---ce
+english---e
+era---ad
+escape---esc
+established---est
+estimated time of arrival---eta
+europe---eu
+excellent---ai
+exercise---pe
+exist---be
+extra---w
+extra large---xl
+extra terrestrial---et
+fahrenheit---f
+father---da
+female---f
+fifty---l
+fighter plane---mig
+fine---f
+finland---fi
+firm---co
+first---ist
+first class---ai
+first woman---eve
+fish---ling
+five---v
+fleet---rn
+florida---fl
+fluorine---f
+flying bomb---vi
+following---f
+football association---fa
+football club---fc
+footnote---ps
+for example---e.g.
+force---f
+former---ex
+former partner---ex
+forte---f
+four---iv
+france---f
+french---le
+french art---es
+frenchman---m
+friday---f
+gallium---ga
+game---ru
+gas---h
+george---g
+georgia---ga
+german---g
+german submarine---u
+germany---ger
+gold---au
+good---pi
+good man---st
+grade---a
+graduate---ba
+gram---g
+grand---g
+grand prix---gp
+greece---grc
+greek character---alpha
+greek letter---alpha
+group---gp
+guevara---che
+gunners---ra
+gym---pe
+hand---ab
+hard---h
+hawaii---hi
+hear---t
+heart---h
+hearts---h
+hectare---ha
+helium---he
+her majesty---hm
+heroin---h
+hexadecimal---hex
+high class---ai
+hire purchase---hp
+holy man---st
+home counties---se
+honour---obe
+honours---bama
+horse---g
+hospital---h
+hour---h
+houses of parliament---hp
+hug---o
+hundred---c
+husband---h
+hush---sh
+hydrogen---h
+i am---im
+iceland---is
+idaho---id
+illinois---il
+in charge---ic
+in this matter---re
+inch---in
+india---in
+indiana---in
+information---gen
+information technology---it
+inning---i
+instant message---im
+integrated circuit---ic
+intelligence---iq
+iodine---i
+iowa---ia
+ireland---ire
+iridium---ir
+irish republican army---ira
+iron---fe
+island---i
+italy---it
+jack---j
+jet---mig
+jolly---rm
+journalist---ed
+judge---j
+junction---t
+junior---jr
+kansas---ks
+kelvin---k
+kentucky---ky
+key---a
+kick off---ko
+kilo---k
+king---k
+kiss---x
+knave---j
+knight---k
+knock out---ko
+knot---kt
+labour---lab
+lake---lla
+large number---c
+last character---z
+last month---ult
+lawrence---dh
+lawyer---bl
+lead---pb
+learner---l
+left---l
+letter---ef
+liberal---l
+lieutenant---lt
+lincoln---abe
+line---l
+lithium---li
+litre---l
+local area network---lan
+long playing record---lp
+long wave---lw
+los angeles---la
+loud---f
+louisiana---la
+love---o
+maiden---m
+maine---me
+malaysia---my
+male---m
+many---cl
+map-makers---os
+marines---rm
+married---m
+maryland---md
+massachusetts---ma
+master---m
+masters---ma
+master of arts---ma
+master of ceremonies---mc
+measure---en
+medal---vc
+medic---doc
+megabyte---mb
+member---mp
+member of parliament---mp
+messerschmitt---me
+michigan---mi
+midday---n
+middle east---me
+midfielder---l
+military police---mp
+ministry of defence---mod
+minnesota---mn
+minute---m
+mississippi---ms
+missouri---mo
+model---t
+moment---mo
+monarch---er
+monday---m
+monsieur---m
+montana---mt
+month---jan
+months---mos
+morninghalf day---am
+mother---ma
+motorway---mmi
+national trust---nt
+navy---rn
+nazis---ss
+nebraska---ne
+neon---ne
+nevada---nv
+never-never---hp
+new---n
+new hampshire---nh
+new jersey---nj
+new mexico---nm
+new south wales---nsw
+new testament---nt
+new york---ny
+new zealand---nzl
+newton---n
+nickel---ni
+nil---o
+nitrogen---n
+no ball---nb
+no good---ng
+noon---n
+north---n
+north carolina---nc
+north dakota---nd
+northern territory---nt
+not applicable---na
+not out---no
+note---nb
+note well---nb
+nothing---o
+november---n
+novice---l
+now---ad
+number one---adam
+ocean---o
+odds---sp
+officer---oc
+ohio---oh
+oklahoma---ok
+old---o
+old boy---ob
+old city---ur
+old english---oe
+old person---oap
+old record---ep
+old testament---ot
+one---i
+operating system---os
+operation---op
+oregon---or
+oriental---e
+ounce---oz
+outsize---os
+outsized---os
+over---o
+over the top---ott
+overdose---od
+oxygen---o
+page---p
+pages---pp
+painters---ra
+pair---pr
+paramilitaries---eta
+parking---p
+party---lab
+pawn---p
+peacekeepers---un
+pencil---hb
+pennsylvania---pa
+penny---p
+performing---on
+peru---pe
+phone company---bt
+phosphorus---p
+physical education---pe
+physical training---pt
+piano---p
+plane---mig
+plate---lp
+play---act
+playing---on
+poem---if
+poet---ts
+point---n
+pole---n
+policeman---pc
+policemen---pc
+politician---mp
+posh---u
+post office---po
+potassium---k
+pound---lb
+pounds---lbs
+power---p
+present day---ad
+priest---pr
+prime minister---pm
+princess---di
+printers measure---en
+prisoner of war---pow
+private---gi
+private investigator---pi
+promises---ious
+province---ni
+pub---ph
+public record office---pro
+quarter---n
+queen---q
+queens honour---obe
+queensland---qld
+question---q
+quiet---p
+quiet/quietly---p
+radium---ra
+railway---r
+record---ep
+ref---ump
+regina---r
+republican---gop
+republicans---gop
+resistance---r
+retired---ret
+reverend---rr
+rex---r
+rhode island---ri
+right---r
+right reverend---rr
+ring---o
+river---r
+road---rdai
+rolls royce---rr
+rook---r
+roughly---ca
+round---o
+royal academy---ra
+royal artillery---ra
+royal engineers---re
+royal marines---rm
+royal navy---rn
+run---r
+sailor---ab
+sailors---abs
+saint---st
+salt---ab
+sappers---re
+saturday---s
+say---e.g.
+scholar---ba
+seaman---ab
+second---s
+second-class---b
+secret service---ss
+see---cf
+selenium---se
+setter---ime
+sex appeal---it
+shakespearean king---lear
+shilling---s
+ship---ss
+short time---t
+short wave---sw
+sibling---sis
+siblings---sis
+significant other---so
+silence---sh
+silicon---si
+silk---qckc
+silver---ag
+single---i
+six-footer---ant
+small bricks---lego
+society---s
+sodium---na
+soft---p
+softly---p
+soldier---rm
+soldiers---men
+somalia---so
+son---s
+soprano---s
+south---s
+south australia---sa
+south carolina---sc
+spade---s
+spades---s
+spanish---el
+sportsman---blue
+square---s
+stone---st
+st---stone
+state---al
+street---st
+strings---e
+student---l
+submarine---u
+sulfur---s
+sunday---s
+support---bra
+sweat---bo
+switzerland---che
+tar---ab
+tasmania---tas
+tax---vat
+teachers---nut
+team---xi
+teas---tt
+teetotal---ttaa
+temperature---t
+ten---x
+tennessee---tn
+tenor---t
+territorial army---ta
+terrorists---eta
+texas---tx
+text---ms
+thanks---ta
+that is---ie
+the same---id
+the thing---it
+theologian---dd
+this month---inst
+thousand---g
+thursday---th
+thus---ie
+time---t
+times---x
+tin---sn
+titanium---ti
+toilet---wc
+top class---ai
+tory---con
+translator---tr
+trendy---in
+tripod---y
+tuesday---t
+tungsten---w
+turn---u
+two---duo
+tyro---l
+ulster---ni
+ulster defence association---uda
+ulster freedom fighters---uff
+ultimate---z
+united kingdom---gbr
+united nations---un
+united states---usa
+university---uou
+unknown---x
+upper class---u
+uranium---u
+utah---ut
+value added tax---vat
+vanadium---v
+variable---x
+vermont---vt
+versus---vvs
+very---v
+very black---bb
+very loud---ff
+very soft---pp
+victoria---vic
+virginia---va
+vitamin---a
+volt---v
+volume---v
+volunteers---ta
+vote---x
+washington---wa
+way---rd
+wednesday---w
+week---w
+weight---g
+west virginia---wv
+western australia---wa
+whistle-blower---ref
+wicket---w
+wide---w
+width---w
+wife---w
+will---ll
+wisconsin---wi
+with---w
+without---wo
+womens supporter---bra
+work---w
+worker---ant
+wyoming---wy
+x---io
+xenon---xe
+yard---ydy
+year---yyr
+yemen---ye
+yours truly---i
+yttrium---y
+zero---o
+zinc---zn
+lee shores---lee shore

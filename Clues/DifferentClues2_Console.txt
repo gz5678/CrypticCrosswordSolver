@@ -1,0 +1,6 @@
+Solving clues in file DifferentClues2.txt
+Total number of clues: 1000
+Solutions found: 103 (10.3 % of clues))
+Correct solutions found: 24 (2.4% of clues, 23.300970873786408% of solutions)
+The correct solution was one of the options 30 times (3.0% of clues, 29.12621359223301% of solutions)
+Calculation lasted 17823.590695381165 seconds.
